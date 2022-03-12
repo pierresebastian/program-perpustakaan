@@ -1,0 +1,59 @@
+body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	background-color: #B5651D;
+}
+.content{
+	height: 100%;
+	position: absolute;
+	margin: 0;
+	padding: 0;
+}
+.middle{
+	text-align: left;
+	border: 1px solid black;
+	border-radius: 15px;
+	padding: 15px;
+	width: 1230px;
+	margin-left: 70px;
+	margin-top: 80px;
+	background: white;
+}
+.book{
+	display: inline-block;
+	text-align: left;
+	position: relative;
+	margin: auto;
+}
+.text1{
+  color: black;
+  font-size: 18px;
+  position: absolute;
+  width: 100%;
+  text-align: left;
+}
+.text2{
+  color: black;
+  font-size: 18px;
+  position: absolute;
+  margin-left: 300px;
+  width: 100%;
+  text-align: left;
+}
+.text3{
+  color: black;
+  font-size: 18px;
+  position: absolute;
+  margin-left: 650px;
+  width: 100%;
+  text-align: left;
+}
+.text4{
+  color: black;
+  font-size: 18px;
+  position: absolute;
+  margin-left: 980px;
+  width: 100%;
+  text-align: left;
+}

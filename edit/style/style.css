@@ -1,0 +1,128 @@
+	body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	background-color: #B5651D;
+}
+.content{
+	height: 100%;
+	position: absolute;
+	margin: 0;
+	padding: 0;
+}
+.middle{
+	text-align: left;
+	border: 1px solid black;
+	border-radius: 15px;
+	padding: 15px;
+	width: 1230px;
+	margin-left: 70px;
+	margin-top: 100px;
+	background: white;
+}
+.bottom{
+	position: absolute;
+	text-align: left;
+	margin-bottom: 8%;
+	border: 1px solid black;
+	border-radius: 15px;
+	padding: 15px;
+	width: 1230px;
+	margin-left: 70px;
+	margin-top: 500px;
+	background: white;
+	height: 320px;
+}
+/* Slideshow container */
+.slideshow-container{
+  position: inline-block;
+  text-align: left;
+  margin: auto;
+}
+/* Caption text */
+.text1{
+  color: black;
+  font-size: 18px;
+  position: absolute;
+  width: 100%;
+  text-align: left;
+}
+.text2{
+  color: black;
+  font-size: 18px;
+  position: absolute;
+  margin-left: 300px;
+  width: 100%;
+  text-align: left;
+}
+.text3{
+  color: black;
+  font-size: 18px;
+  position: absolute;
+  margin-left: 650px;
+  width: 100%;
+  text-align: left;
+}
+.text4{
+  color: black;
+  font-size: 18px;
+  position: absolute;
+  margin-left: 980px;
+  width: 100%;
+  text-align: left;
+}
+.text5{
+  color: black;
+  font-size: 18px;
+  position: absolute;
+  width: 100%;
+  text-align: left;
+  margin-left: 277px;
+}
+.text6{
+  color: black;
+  font-size: 18px;
+  position: absolute;
+  width: 100%;
+  text-align: left;
+  margin-left: 885px;
+  transition: 1s;
+}
+.text6:hover{
+	color: blue;
+	
+}
+/* The dots/bullets/indicators */
+.dot{
+  height: 15px;
+  width: 15px;
+  text-align: center;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active{
+  background-color: #717171;
+}
+/* Fading animation */
+.fade{
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade{
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade{
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px){
+  .text {font-size: 11px}
+}
